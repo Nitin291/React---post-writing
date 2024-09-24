@@ -1,0 +1,79 @@
+.App-container {
+  display: flex ;
+}
+
+.content {
+  width: 100%;
+}
+
+/* src/App.css */
+
+.sidebar {
+  width: 280px; /* Set width of the sidebar */
+  background-color: #343a40; /* Dark background color */
+  color: #ffffff; /* Text color */
+  height: 100vh; /* Full viewport height */
+  display: flex;
+  flex-direction: column;
+  padding: 1rem; /* Padding around content */
+}
+
+.sidebar .nav-link {
+  color: #ffffff; /* White text color for nav links */
+  transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out; /* Smooth transition for hover effects */
+}
+
+.sidebar .nav-link.active {
+  background-color: #495057; /* Darker background color for active link */
+  color: #ffffff; /* Keep text color white for active link */
+}
+
+.sidebar .nav-link:hover {
+  background-color: #495057; /* Darker background color on hover */
+}
+
+.sidebar .dropdown-toggle {
+  display: flex;
+  align-items: center;
+  color: #ffffff; /* White text color for dropdown toggle */
+}
+
+.sidebar .dropdown-menu {
+  background-color: #343a40; /* Dark background color for dropdown menu */
+  border: none; /* Remove border from dropdown menu */
+}
+
+.sidebar .dropdown-item {
+  color: #ffffff; /* White text color for dropdown items */
+}
+
+.sidebar .dropdown-item:hover {
+  background-color: #495057; /* Darker background color on hover */
+}
+
+/* Additional styles for sidebar elements */
+.sidebar .fs-4 {
+  font-size: 1.5rem; /* Font size for the sidebar header */
+}
+
+.sidebar .nav-item {
+  margin-bottom: 0.5rem; /* Space between nav items */
+}
+
+.sidebar .dropdown-divider {
+  border-color: #495057; /* Darker color for the dropdown divider */
+}
+
+
+.postcard{
+  margin: 20px 50px;
+  min-width: 30rem;
+}
+
+.hashtag{
+  margin: 0px 3px;
+}
+
+.reaction{
+  margin: 15px 0px 0px 0px;
+}
